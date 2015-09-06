@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chalkboard" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/about" />
+
+        <TextView
+            android:id="@+id/txtSrchRslt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:text="  Hi! and thank you for downloading the App. \nWhat you have in hands is something that started as a class project for CST2301 (Multimedia and Mobile Device Programming), New York City College Of Technology.But then got transformed into a personal goal of bringing all CST courses for the entire program into one single App. \nThis is of course just the beginning, and \&quot;a journey of a thousand miles begins with a single step\&quot; as Lao Tzu would say. This, ladies and gents, is my first step.\n  I would still need help from you. Any feedback, suggestion, or feature that you would like to see in the App would be taken very seriously and, if I have the means and the time, I would make it possible.\n  I would like, as well, to give some special thanks; first to Prof. Ari Vega whose devotion for his class has pushed us to go a step beyond what was expected from us.\n  I would like to thank \niconarchive.com, \ncooltext.com,\nsnible.org,\ntwistedwave.com,\napps.pixlr.com/editor/ \nfor their free content and helpful resources that, when limited by time and means, would turn out to be extremely helpful.\n  Now concerning updates for the App. I am willing to include more content as soon as possible. With some feedback from you guys this could become an extremely useful tool for students. I am willing to work on the design as well, so any suggestion on that side is something that I will also consider.\n\n  One last thing. This App is, and will remain totally free.\n\n\nFOUAD MEDJEKDOUD. .\nfouad.medjekdoud@gmail.com"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+   
+
+</ScrollView>
